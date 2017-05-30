@@ -161,7 +161,7 @@ export default class ModalDropdown extends Component {
             <View style={styles.button}>
               <Text style={[styles.buttonText, this.props.textStyle]}
                     numberOfLines={1}>
-                {this.state.buttonText}
+                {this.state.buttonText} ▾
               </Text>
             </View>
           )
